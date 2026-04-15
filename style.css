@@ -1,0 +1,50 @@
+/* Akvarellskiss Pigment Database - WordPress Embed Styles */
+
+#pigment-container {
+    font-family: 'Georgia', serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.pigment-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: #fafafa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pigment-card h3 {
+    color: #1a1a1a;
+    margin-top: 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #c49b63;
+    padding-bottom: 0.5rem;
+}
+
+.pigment-meta {
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+.pigment-meta span {
+    display: inline-block;
+    margin-right: 1rem;
+    background: #f4f4f4;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+}
+
+.pigment-description {
+    line-height: 1.7;
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #pigment-container { padding: 1rem; }
+    .pigment-card { padding: 1rem; }
+}
