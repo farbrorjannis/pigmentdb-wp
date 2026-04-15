@@ -3,11 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pigment Database - Akvarellskiss Tools</title>
+    <title>Pigment Database | Akvarellskiss Tools</title>
+    <meta name="description" content="Professional watercolour pigment database with search and filters for chemical formula, lightfastness, and color family.">
+    <!-- Inbäddbar via iframe i WordPress -->
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <div id="pigment-container"></div>
-    <script src="script.js"></script>
+
+    <!-- SEO Container -->
+    <div id="app-container">
+        <header class="portal-header">
+            <h1>Pigment Database</h1>
+            <p class="subtitle">Professional Reference for Watercolour Artists</p>
+        </header>
+
+        <!-- Sökruta & Filter -->
+        <section class="controls-bar">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search pigment name, code or formula..." aria-label="Search Pigments">
+            </div>
+            <div class="filters-wrapper">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Transparent">Transparent</button>
+                <button class="filter-btn" data-filter="Opaque">Opaque</button>
+                <button class="filter-btn" data-filter="Lightfastness-I">Lightfastness I</button>
+                <button class="filter-btn" data-filter="Lightfastness-II">Lightfastness II</button>
+            </div>
+        </section>
+
+        <!-- Huvudinnehåll -->
+        <main id="pigment-grid" class="grid-container">
+            <!-- JS lägger in karta här -->
+        </main>
+        
+        <footer class="portal-footer">
+            <p>Akvarellskiss Tools © 2024</p>
+        </footer>
+    </div>
+
 </body>
 </html>
