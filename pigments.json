@@ -1,35 +1,35 @@
 [
   {
-    "pigmentKod": "PW6",
-    "vanligtNamn": "Titan Dioxid",
-    "englishName": "Titanium Dioxide",
-    "kemiskBeteckning": "TiO₂",
-    "hexFarg": "#FFFFFF",
-    "beskrivning": "A modern, highly covering white pigment. Excellent for opaque watercolour washes and as an underpainting base.",
-    "tillverkareNamn": "All major brands (Hahnemühle, Winsor & Newton, Daniel Smith)",
-    "ljusakthetText": "Superior",
-    "toxicity": "Safe"
-  },
-  {
-    "pigmentKod": "PB29",
-    "vanligtNamn": "Ultramarinblå",
-    "englishName": "Ultramarine Blue",
-    "kemiskBeteckning": "Na₈-₁₀Al₆Si₆O₂₄S₂-₄",
-    "hexFarg": "#4166B5",
-    "beskrivning": "Classic transparent blue with a reddish undertone. Historically valuable pigment used since medieval times.",
-    "tillverkareNamn": "All major brands (Winsor & Newton, Holbein, Daniel Smith)",
-    "ljusakthetText": "Superior",
-    "toxicity": "Safe"
+    "pigmentKod": "PY254",
+    "vanligtNamn": "Pyrrolgul",
+    "englishName": "Pyronine Yellow", 
+    "kemiskFormel": "C16H9NO8",
+    "hexFarg": "#D97706",
+    "beskrivning": "Välj gul för lasyer. Hög täckkraft, bra ljusakthet.",
+    "fargFamilj": "Gul",
+    "transparens": "Opaque",
+    "ljusakthet": "LF-I"
   },
   {
     "pigmentKod": "PB15:3",
-    "vanligtNamn": "Ftaloblå (grönaktig)",
+    "vanligtNamn": "Ftaloblå",
     "englishName": "Phthalo Blue (Green Shade)",
-    "kemiskBeteckning": "C₃₂H₁₆Cl₁₅CuN₈",
+    "kemiskFormel": "C32H16Cl15CuN8",
     "hexFarg": "#2281C1",
-    "beskrivning": "Intense blue-green with exceptional color strength. High transparency, excellent for landscape work.",
-    "tillverkareNamn": "All major brands (Winsor & Newton, Daniel Smith)",
-    "ljusakthetText": "Superior",
-    "toxicity": "Safe"
+    "beskrivning": "Intensiv ljumörk blå. Utmärkt för blårader.",
+    "fargFamilj": "Blå",
+    "transparens": "Transparent",
+    "ljusakthet": "LF-I"
+  },
+  {
+    "pigmentKod": "PR122",
+    "vanligtNamn": "Quinacridone Magenta",
+    "englishName": "Quinacridone Magenta",
+    "kemiskFormel": "C30H15NO7S",
+    "hexFarg": "#E60074",
+    "beskrivning": "Moderna mörk röda. Stabil i ljus.",
+    "fargFamilj": "Röd",
+    "transparens": "Transparent",
+    "ljusakthet": "LF-II"
   }
 ]
